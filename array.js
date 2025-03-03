@@ -81,11 +81,85 @@
 
 
 //by for loop
-let items = [250,645,300,900,50]
-for(let i = 0; i<items.length; i++){
-   let offer = items[i] / 10;
-items[i] = items[i] - offer
-}
-console.log(items);
+// let items = [250,645,300,900,50]
+// for(let i = 0; i<items.length; i++){
+//    let offer = items[i] / 10;
+// items[i] = items[i] - offer
+// }
+// console.log(items);
+
+
+
+
+
+//ARRAY METHODS 
+
+// let food = ["potato","apple","mangoes","litchi","tomato"]
+// food.pop()
+// let deletedItem = food.pop();
+// console.log(food );
+// console.log(deletedItem);
+
+
+// let item = ["potato","apple","mangoes","litchi","tomato"]
+// console.log(item);
+// console.log(item.toString());
+
+
+//concat method
+// let bollywood_heroes =['salman','shahraukh','aamir','imran','nawazuddin'];
+// let marvel_heroes =['thor','batman','superman','spiderman','hulk'];
+// let indian_heroes  = ['shaktimaan','baalveer','sakkalakkaboomboom','krish']
+// let heroes = bollywood_heroes.concat(marvel_heroes,indian_heroes)
+
+// console.log(heroes);
+
+
+
+//unshift() Method
+
+// let array = ['arshullah','irfan','bhaijaan','mohsin'];
+// array.unshift("arsh")
+// console.log(array);
+
+
+
+
+//Shift () method
+// let array =[1,3,4,8,12,6]
+// let arrays = array.shift();
+// console.log(array);
+
+
+
+
+// slice method
+
+// let animal = ['monket','lion','tiger','fox','rat','elephant'];
+// console.log(animal);
+// console.log(animal.slice(1,3));
+
+
+
+
+//SPLICE () METHOD
+
+// let array =[1,2,3,4,5,6,7,8,9];
+// console.log(array);
+// let arrays = array.splice(3,6,12,14)
+// console.log(array);
+
+
+
+// create an array and stores companys --> "Bloomberg","microsoft","uber","google","IBM","netflix"
+// remove the first element in the array
+// remove uber and ola in array
+//amazon add at the end
+
+// let companies = ['Bloomberg','Microsoft','Uber','Google','IBM','netflix']
+// let array = companies.shift();
+// let arrays = companies.splice(1,"1","ola")
+// let new_array = companies.push("amazon")
+// console.log(companies);
 
 
