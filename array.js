@@ -156,10 +156,6 @@
 // remove uber and ola in array
 //amazon add at the end
 
-// let companies = ['Bloomberg','Microsoft','Uber','Google','IBM','netflix']
-// let array = companies.shift();
-// let arrays = companies.splice(1,"1","ola")
-// let new_array = companies.push("amazon")
-// console.log(companies);
+//  
 
 
