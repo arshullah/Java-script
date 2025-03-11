@@ -55,6 +55,4 @@ for(div of divs ){
     idx++;
 }
 
-// divs[0].innerText = "new value unique"
-// divs[1].innerText = "new value two unique"
-// divs[2].innerText = "new value three unique"
+
