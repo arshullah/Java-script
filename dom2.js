@@ -1,32 +1,32 @@
-// let div = document.querySelector("div");
-// console.log(div);
+let div = document.querySelector("div");
+console.log(div);
 
-// let id = div.getAttribute("id")
-// console.log(id);
-// let att = div.getAttribute("game");
-// console.log(att);
+let id = div.getAttribute("id")
+console.log(id);
+let att = div.getAttribute("game");
+console.log(att);
 
-// let para = document.querySelector("p");
-// console.log(para.setAttribute("class","newClass"));
+let para = document.querySelector("p");
+console.log(para.setAttribute("class","newClass"));
 
-//  let dev = document.querySelector("div")
-//  console.log(dev);
-//  div.style.backgroundColor = "";
+ let dev = document.querySelector("div")
+ console.log(dev);
+ div.style.backgroundColor = "";
  
-// let newbtn = document.createElement("button");
-// newbtn.innerText= "click me";
-// console.log(newbtn);
-//  let dib = document.querySelector("div");
-//  div.after(newbtn);
+let newbtn = document.createElement("button");
+newbtn.innerText= "click me";
+console.log(newbtn);
+ let dib = document.querySelector("div");
+ div.after(newbtn);
 
 
-//  let newHeading = document.createElement("h1");
-//  newHeading.innerText= "<i>hi,Iam a new heading!</i>";
+ let newHeading = document.createElement("h1");
+ newHeading.innerText= "<i>hi,Iam a new heading!</i>";
  
-//  let body = document.querySelector("body").prepend(newHeading);
+ let body = document.querySelector("body").prepend(newHeading);
 
-//  let parah = document.querySelector("p");
-//  parah.remove();
+ let parah = document.querySelector("p");
+ parah.remove();
 
 
 
@@ -44,5 +44,5 @@ newBtn.style.color = "white";
 
 
  // question 2
- let para = document.querySelector("p");
+ let paragraph = document.querySelector("p");
  
