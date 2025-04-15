@@ -152,9 +152,3 @@ let teacher1 = new user("gaddi", "gaddi@gmail.com");
 let teacher2 = new user(",maut", "maut@gmail.com");
 
 let admin1 = new admin("Admin", "admin@gmail.com");
-
-
-
-
-
-//ERROR HANDLING
